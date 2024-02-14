@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300;800&family=Rubik+Doodle+Shadow&display=swap');
+
+body{
+    text-align: center;
+    background: linear-gradient(#35155D, #512B81, #2d549a, #4e65a5);        
+}
+
+#title {
+    color: rgb(118, 117, 117);    
+    height: 50px;
+    font-size: 2rem;    
+    font-family: Rubik Doodle Shadow;
+    margin: 2cm;
+    align-items: center;
+}
+
+#introduction {
+    color: rgb(179, 178, 178);
+    text-align: center;
+    font-family: Diphylleia;
+    margin-bottom: 3cm;
+}
+
+.post1, .post3 {
+    box-shadow: 0px 2px 30px 0px rgba(255, 255, 255, 0.5);
+    flex-direction: column; 
+    text-align: left;
+    margin: 1cm;
+    font-family: "Noto Serif", serif;
+    font-size: 20px;
+}
+
+#horizon, #ghost, #TLOU {
+    margin: 1cm;
+}
+
+.post2 {
+    box-shadow: inset;
+    flex-direction: column; 
+    text-align: right;
+    margin: 1cm;
+    font-family: "Noto Serif", serif;
+    font-size: 20px;
+}
+
+#description {
+    color: black;
+    text-align: right;
+}
+
+#description2 {
+    color: black;
+    text-align: left;
+}
+
+#names {
+    margin: 1px;
+    padding: 10px;
+}
